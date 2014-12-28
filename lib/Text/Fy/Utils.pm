@@ -1,5 +1,5 @@
 package Text::Fy::Utils;
-
+$Text::Fy::Utils::VERSION = '0.09';
 use 5.020;
 use warnings;
 
@@ -11,7 +11,6 @@ require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT    = qw();
 our @EXPORT_OK = qw(asciify isoify simplify commify cv_to_win cv_from_win);
-our $VERSION   = '0.08';
 
 my %cp1252_to_uni;
 
